@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boilerplate de diseño de interfaces web con Flexbox e inspiración tech premium.">
+    <meta name="keywords" content="HTML5, CSS3, Flexbox, Web Design, Responsive, Apple Style">
+    <meta name="author" content="Tu Nombre">
+    <title>Sitio Web Base | Diseño UI</title>
+
+    <!-- Google Fonts CDN (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN (Iconos) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Contenedor Principal (Límites de ancho 1000px - 2000px) -->
+    <div class="site-wrapper">
+
+        <!-- CABECERA -->
+        <header class="main-header">
+            <div class="logo">
+                <a href="#"><i class="fa-solid fa-cube"></i> TechCore</a>
+            </div>
+
+            <!-- MENÚ DE NAVEGACIÓN -->
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#" class="nav-link active"><i class="fa-solid fa-house"></i> Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-layer-group"></i> Productos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-microchip"></i> Tecnología</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- CONTENIDO PRINCIPAL Y ASIDE -->
+        <div class="layout-body">
+            
+            <main class="main-content">
+                <section class="hero-banner">
+                    <h1>Innovación sin límites</h1>
+                    <p>Una estructura web optimizada, construida desde cero con Flexbox y directrices de usabilidad modernas.</p>
+                </section>
+
+                <!-- SECCIÓN DE ARTÍCULOS REPETIDOS -->
+                <section class="articles-grid">
+                    <article class="card">
+                        <img src="https://picsum.photos/id/1/600/400" alt="Portátil sobre un escritorio de trabajo minimalista" class="card-img">
+                        <div class="card-body">
+                            <h2>Arquitectura Web</h2>
+                            <p>Estructura semántica limpia para mejorar la accesibilidad y el indexado SEO de tu sitio web.</p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="https://picsum.photos/id/160/600/400" alt="Teléfono móvil mostrando gráficos y estadísticas de diseño" class="card-img">
+                        <div class="card-body">
+                            <h2>Diseño Fluido</h2>
+                            <p>Contenedores adaptables basados en rangos de ancho variable entre 1000px y 2000px.</p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="https://picsum.photos/id/180/600/400" alt="Teclado y componentes electrónicos de alto rendimiento" class="card-img">
+                        <div class="card-body">
+                            <h2>Estilizado con Variables</h2>
+                            <p>Uso de variables CSS para garantizar la consistencia visual y facilitar la personalización.</p>
+                        </div>
+                    </article>
+                </section>
+            </main>
+
+            <!-- BARRA LATERAL (ASIDE) -->
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3><i class="fa-solid fa-bullhorn"></i> Novedades</h3>
+                    <p>Revisa la documentación completa del sistema de diseño en el archivo <code>design.md</code>.</p>
+                </div>
+                <div class="widget">
+                    <h3><i class="fa-solid fa-link"></i> Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="#">Documentación API</a></li>
+                        <li><a href="#">Guía de Estilo</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+        </div>
+
+        <!-- PIE DE PÁGINA -->
+        <footer class="main-footer">
+            <p>&copy; 2026 TechCore Inc. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- ELEMENTO FIJO EN ESQUINA INFERIOR DERECHA (Position: fixed) -->
+    <a href="#" class="floating-btn" aria-label="Volver arriba">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+</body>
+</html>
